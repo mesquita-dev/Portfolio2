@@ -178,15 +178,6 @@ header nav ul a:hover::after{
   margin-bottom: 48px;
 }
 
-.services h1::after, .skills h1::after, .work h1::after{
-  content: '';
-  display: inline-block;
-  height: 1px;
-  width: 559px;
-  background: var(--dec);
-  margin-left: 18px;
-}
-
 .services .cards{
   display: flex;
   justify-content: space-between;
@@ -232,6 +223,7 @@ header nav ul a:hover::after{
   gap: 8px;
   align-items: center;
 }
+
 
 .skill p{
   font-family: 'Inter', sans-serif;
@@ -280,6 +272,7 @@ header nav ul a:hover::after{
   font-family: 'Raleway', sans-serif;
   font-size: 1.125rem;
 }
+
 
 .contact h2{
   font-family: 'Raleway', sans-serif;
