@@ -231,12 +231,6 @@ header nav ul a:hover::after{
   color: var(--destaques);
 }
 
-.work .img-carrousel{
-  display: flex;
-  justify-content: space-between;
-  gap: 83px;
-}
-
 .work-btns{
   display: flex;
   justify-content: space-between;
@@ -322,5 +316,16 @@ footer{
   margin-bottom: 42px;
 }
 
+.flickity-page-dots .dot.is-selected{
+  background: var(--primaria);
+}
 
+.flickity-page-dots {
+  bottom: -30px !important;
+}
+
+.carousel-cell {
+  width: 28%;
+  margin-right: 10px;
+}
 

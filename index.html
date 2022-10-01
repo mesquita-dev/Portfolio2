@@ -11,6 +11,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter&family=Raleway:wght@300;400;500&family=Space+Mono&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <link rel="stylesheet" href="/path/to/flickity.css" media="screen">
 </head>
 <body>
   <header>
@@ -129,32 +131,18 @@
     <section class="work" id="work">
       <h1><span class="color-title">03</span>.work</h1>
 
-      <div class="img-carrousel">
-        <article class="img">
-          <figure>
-            <img src="img/galeria-1.jpg" alt="">
-          </figure>
-        </article>
+      <div class="main-carousel">
+        <div class="carousel-cell"><a href=""><img src="img/galeria-1.jpg" alt=""></a></div>
+        <div class="carousel-cell"><a href=""><img src="img/galeria-2.jpg" alt=""></a></div>
+        <div class="carousel-cell"><a href=""><img src="img/galeria-3.jpg" alt=""></a></div>
+        <div class="carousel-cell"><a href=""><img src="img/galeria-1.jpg" alt=""></a></div>
+        <div class="carousel-cell"><a href=""><img src="img/galeria-2.jpg" alt=""></a></div>
+        <div class="carousel-cell"><a href=""><img src="img/galeria-3.jpg" alt=""></a></div>
 
-        <article class="img">
-          <figure>
-            <img src="img/galeria-2.jpg" alt="">
-          </figure>
-        </article>
-
-        <article class="img">
-          <figure>
-            <img src="img/galeria-3.jpg" alt="">
-          </figure>
-        </article>
       </div>
 
       <div class="work-btns">
         <a href="https://github.com/mesquita-dev">Github</a>
-
-        <div>
-          <p>setas flickity</p>
-        </div>
       </div>
     </section>
 
@@ -197,5 +185,8 @@
   </footer>
 
   <script src="script.js"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script src="/path/to/flickity.pkgd.min.js"></script>
+  <script src="flickity.js"></script>
 </body>
 </html>
