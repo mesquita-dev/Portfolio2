@@ -184,9 +184,8 @@ header nav ul a:hover::after{
 
 .services .cards{
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
-  gap: 83px;
+  gap: 32px;
 }
 
 .services .card{
@@ -336,6 +335,26 @@ footer{
 
 
 @media screen and (max-width: 999px){
+  .home .redes-sociais, .home .email{
+    display: none;
+  }
+
+  .home .content{
+    margin-left: 32px;
+  }
+
+  .services {
+    margin: 120px 32px 120px 32px;
+}
+
+  .services .cards{
+    flex-wrap: nowrap;
+  }
+
+  .skills, .work, .exp, .contact{
+    margin: 0 32px 120px 32px;
+  }
+
   #btn-mobile{
     display: flex;
     padding: .5rem 1rem;
@@ -367,7 +386,7 @@ footer{
   #menu{
     display: block;
     position: absolute;
-    top: 70px;
+    top: 100px;
     height: 0px;
     background-color: #2b2b2b;
     z-index: 1;
@@ -400,4 +419,25 @@ footer{
     transform: rotate(-135deg);
     top: -7px;
   }
+}
+
+@media screen and (max-width: 767px){
+  .services .cards{
+    flex-wrap: wrap;
+  }
+  .skills-galery{
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
+  footer{
+    padding: 0 32px;
+  }
+}
+
+@media screen and (max-width: 470px){
+  .contact .contact-btns {
+    gap: 60px;
+    flex-direction: column;
+    align-items: flex-start;
+}
 }
