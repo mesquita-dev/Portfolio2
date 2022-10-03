@@ -340,7 +340,7 @@ footer{
   }
 
   .home .content{
-    margin-left: 32px;
+    margin: 0 32px;
   }
 
   .services {
@@ -435,9 +435,31 @@ footer{
 }
 
 @media screen and (max-width: 470px){
+  header{
+    margin: 42px 32px 60px 32px;
+  }
+  .services{
+  margin: 60px 32px 60px 32px;
+  }
+  .skills, .work, .exp, .contact{
+    margin: 0 32px 60px 32px;
+  }
+  .services h1, .skills h1, .work h1, .exp h1, .contact h1{
+    margin-bottom: 24px;
+  }
   .contact .contact-btns {
     gap: 60px;
     flex-direction: column;
     align-items: flex-start;
-}
+  }
+  .home .content h1{
+    font-size: 3rem;
+  }
+  .home .content .desc {
+    font-size: 1.25rem;
+  }
+  .contact .contact-btns a, .work .work-btns a{  
+    padding: 12px 16px;
+    font-size: 1.25rem;
+  }
 }
