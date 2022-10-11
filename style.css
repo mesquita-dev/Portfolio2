@@ -259,7 +259,7 @@ header nav ul a:hover::after{
 
 .work img{
   opacity: 0.4;
-  transition: 1s;
+  transition: .7s;
 }
 
 .work img:hover{
