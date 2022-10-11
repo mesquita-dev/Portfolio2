@@ -148,6 +148,7 @@ header nav ul a:hover::after{
 }
 
 .home .email a{
+  display: none;
   font-size: 1.25rem;
   font-family: 'Space Mono', monospace;
   color: var(--textos);
@@ -305,6 +306,10 @@ header nav ul a:hover::after{
   display: flex;
   justify-content: space-between;
   margin-top: 56px;
+}
+
+.contact .contact-btns .remove{
+  display: none;
 }
 
 .contact .contact-btns a{
