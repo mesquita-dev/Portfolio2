@@ -257,6 +257,15 @@ header nav ul a:hover::after{
   transition: .3s;
 }
 
+.work img{
+  opacity: 0.4;
+  transition: 1s;
+}
+
+.work img:hover{
+  opacity: 1;
+}
+
 .exp h2{
   font-family: 'Raleway', sans-serif;
   font-size: 1.375rem;
