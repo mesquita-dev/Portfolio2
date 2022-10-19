@@ -475,3 +475,10 @@ footer{
     font-size: 1.25rem;
   }
 }
+
+@media screen and (max-width: 360px){
+  .skills-galery{
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}
