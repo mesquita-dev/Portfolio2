@@ -476,9 +476,20 @@ footer{
   }
 }
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 400px){
+  .skills-galery{
+    gap: 24px;
+  }
+  .skill img {
+    width: 36px;
+  }
+  .skill p{
+    font-size: 1.125rem;
+  }
+}
+
+@media screen and (max-width: 330px){
   .skills-galery{
     grid-template-columns: 1fr;
-    gap: 32px;
   }
 }
